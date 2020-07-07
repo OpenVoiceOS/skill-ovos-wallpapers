@@ -10,7 +10,7 @@ Pictures from selected subreddits
 ![](./gui.gif)
 
 ## Examples
-* "change wallpaper"
+* "new wallpaper"
 * "change wallpaper to nature"
 * "show me a picture"
 * "show me a picture with dogs"
