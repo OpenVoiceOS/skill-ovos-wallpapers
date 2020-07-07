@@ -1,0 +1,25 @@
+{
+  "name": "WallpapersSkill",
+  "skillname": "skill-wallpapers",
+  "authorname": "JarbasSkills",
+  "foldername": "",
+  "url": "https://github.com/JarbasSkills/skill-wallpapers",
+  "branch": "master",
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "platforms": [
+    "arm",
+    "arm64",
+    "i386",
+    "x86_64",
+    "ia64"
+  ],
+  "examples": [
+    "new wallpaper",
+    "change wallpaper to nature",
+    "show me a picture",
+    "show me a picture with dogs",
+    "make that my wallpaper"
+  ]
+}
