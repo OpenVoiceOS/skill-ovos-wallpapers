@@ -134,6 +134,11 @@ class WallpapersSkill(MycroftSkill):
         self.add_event('skill-wallpapers.jarbasskills.home',
                        self.homepage)
 
+    # on install
+    def get_intro_message(self):
+        # welcome dialog on skill install
+        self.speak_dialog("intro", {"skill_name": self.skill_name})
+
     # bigscreen
     def homepage(self):
         self.handle_random_picture()
@@ -266,12 +271,11 @@ class WallpapersSkill(MycroftSkill):
                                         self._old_settings[k])
         self._old_settings = dict(self.settings)
 
-    # on install
-    def get_intro_message(self):
-        # welcome dialog on skill install
-        self.speak_dialog("intro", {"skill_name": self.skill_name})
+    def handle_new_setting(self, key, value, old_value):
+        self.log.debug("{name}: {key} changed from {value} to {old}".format(
+            key=key, value=value, old=old_value, name=self.skill_name))
 
-    # intents
+    # skill functionality
     def change_wallpaper(self, image):
         if self.settings["auto_detect"]:
             success = set_wallpaper(image)
@@ -282,6 +286,18 @@ class WallpapersSkill(MycroftSkill):
                 success = set_wallpaper(image)
         return success
 
+    def display(self):
+        self.gui.clear()
+        data = self.picture_list[self.pic_idx]
+        for k in data:
+            self.gui[k] = data[k]
+        title = self.picture_list[self.pic_idx].get("title")
+        if title:
+            self.speak(title)
+        self.gui.show_page("slideshow.qml", override_idle=True)
+        self.set_context("SlideShow")
+
+    # intents
     @intent_file_handler("wallpaper.random.intent")
     def handle_random_wallpaper(self, message):
         image, title = self.update_picture()
@@ -298,21 +314,14 @@ class WallpapersSkill(MycroftSkill):
         title = self.picture_list[self.pic_idx].get("title")
         if title:
             self.speak(title)
-        self._display()
+        self.display()
 
     @intent_file_handler("wallpaper.about.intent")
     def handle_wallpaper_about(self, message):
         query = message.data["query"]
         self.speak_dialog("searching", {"query": query})
         image, title = self.update_picture(query)
-
-        if self.settings["auto_detect"]:
-            success = set_wallpaper(image)
-        else:
-            # allow user override of wallpaper command
-            success = set_wallpaper(image, self.settings["desktop_env"])
-            if not success:
-                success = set_wallpaper(image)
+        success = self.change_wallpaper(image)
         if success:
             self.speak_dialog("wallpaper.changed")
         else:
@@ -327,7 +336,7 @@ class WallpapersSkill(MycroftSkill):
         title = self.picture_list[self.pic_idx].get("title")
         if title:
             self.speak(title)
-        self._display()
+        self.display()
 
     @intent_handler(IntentBuilder("NextPictureIntent")
                     .require("next").optionally("picture")
@@ -339,7 +348,7 @@ class WallpapersSkill(MycroftSkill):
             self.pic_idx = total - 1
             self.speak_dialog("no.more.pictures")
         else:
-            self._display()
+            self.display()
 
     @intent_handler(IntentBuilder("PrevPictureIntent")
                     .require("previous").optionally("picture")
@@ -353,7 +362,7 @@ class WallpapersSkill(MycroftSkill):
             title = self.picture_list[self.pic_idx].get("title")
             if title:
                 self.speak(title)
-            self._display()
+            self.display()
 
     @intent_handler(IntentBuilder("MakeWallpaperIntent")
                     .require("set").require("wallpapers").optionally("picture")
@@ -365,22 +374,6 @@ class WallpapersSkill(MycroftSkill):
             self.speak_dialog("wallpaper.changed")
         else:
             self.speak_dialog("wallpaper fail")
-
-    def _display(self):
-        self.gui.clear()
-        data = self.picture_list[self.pic_idx]
-        for k in data:
-            self.gui[k] = data[k]
-        title = self.picture_list[self.pic_idx].get("title")
-        if title:
-            self.speak(title)
-        self.gui.show_page("slideshow.qml", override_idle=True)
-        self.set_context("SlideShow")
-
-    # event handlers
-    def handle_new_setting(self, key, value, old_value):
-        self.log.debug("{name}: {key} changed from {value} to {old}".format(
-            key=key, value=value, old=old_value, name=self.skill_name))
 
 
 def create_skill():
