@@ -119,12 +119,6 @@ class WallpapersSkill(OVOSSkill):
 
         self.register_with_PHAL()
 
-    # on install
-    def get_intro_message(self):
-        # welcome dialog on skill install
-        self.speak_dialog("intro",
-                          {"skill_name": camel_case_split(self.__class__.__name__)})
-
     # idle screen
     def update_picture(self, query=None):
         data = {}
