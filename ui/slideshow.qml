@@ -60,7 +60,7 @@ Mycroft.Delegate {
             }
 
             onClicked: {
-                triggerGuiEvent('skill-wallpapers.jarbasskills.prev', {})
+                triggerGuiEvent('wallpaper.prev', {})
             }
 
             Keys.onReturnPressed: {
@@ -109,7 +109,7 @@ Mycroft.Delegate {
             }
 
             onClicked: {
-                triggerGuiEvent('skill-wallpapers.jarbasskills.next', {})
+                triggerGuiEvent('wallpaper.next', {})
             }
 
             Keys.onReturnPressed: {
