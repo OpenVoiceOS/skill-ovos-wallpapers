@@ -1,0 +1,16 @@
+{
+    "wallpaper.changed.dialog": [
+        "enjoy your new wallpaper"
+    ],
+    "no.more.pictures.dialog": [
+        "I don't have anymore pictures",
+        "I'm out of pictures to show you"
+    ],
+    "searching.dialog": [
+        "Searching pictures about {query}",
+        "Searching for images with {query}"
+    ],
+    "wallpaper.fail.dialog": [
+        "I don't know how to change wallpaper in this platform"
+    ]
+}
