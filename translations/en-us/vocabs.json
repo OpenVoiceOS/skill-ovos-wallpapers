@@ -1,0 +1,631 @@
+{
+    "ArtPorn.voc": [
+        "ArtPorn",
+        "Art Porn",
+        "art "
+    ],
+    "FWEPP.voc": [
+        "FWEPP",
+        "FWEPP",
+        "fwepp"
+    ],
+    "MachinePorn.voc": [
+        "MachinePorn",
+        "Machine Porn",
+        "machine "
+    ],
+    "StarshipPorn.voc": [
+        "StarshipPorn",
+        "Starship Porn",
+        "starship "
+    ],
+    "DessertPorn.voc": [
+        "DessertPorn",
+        "Dessert Porn",
+        "dessert "
+    ],
+    "AbandonedPorn.voc": [
+        "AbandonedPorn",
+        "Abandoned Porn",
+        "abandoned "
+    ],
+    "HumanPorn.voc": [
+        "HumanPorn",
+        "Human Porn",
+        "human "
+    ],
+    "SpacePorn.voc": [
+        "SpacePorn",
+        "Space Porn",
+        "space "
+    ],
+    "ThingsCutInHalfPorn.voc": [
+        "ThingsCutInHalfPorn",
+        "Things Cut In Half Porn",
+        "things cut in half "
+    ],
+    "LakePorn.voc": [
+        "LakePorn",
+        "Lake Porn",
+        "lake "
+    ],
+    "RuralPorn.voc": [
+        "RuralPorn",
+        "Rural Porn",
+        "rural "
+    ],
+    "InterstellarArt.voc": [
+        "InterstellarArt",
+        "Interstellar Art",
+        "interstellar art"
+    ],
+    "BridgePorn.voc": [
+        "BridgePorn",
+        "Bridge Porn",
+        "bridge "
+    ],
+    "FoodPorn.voc": [
+        "FoodPorn",
+        "Food Porn",
+        "food "
+    ],
+    "AmateurPhotography.voc": [
+        "AmateurPhotography",
+        "Amateur Photography",
+        "amateur photography"
+    ],
+    "SportsPorn.voc": [
+        "SportsPorn",
+        "Sports Porn",
+        "sports "
+    ],
+    "SpringPorn.voc": [
+        "SpringPorn",
+        "Spring Porn",
+        "spring "
+    ],
+    "ComicBookPorn.voc": [
+        "ComicBookPorn",
+        "Comic Book Porn",
+        "comic book "
+    ],
+    "CarPorn.voc": [
+        "CarPorn",
+        "Car Porn",
+        "car "
+    ],
+    "GeekPorn.voc": [
+        "GeekPorn",
+        "Geek Porn",
+        "geek "
+    ],
+    "ArtistOfTheDay.voc": [
+        "ArtistOfTheDay",
+        "Artist Of The Day",
+        "artist of the day"
+    ],
+    "MilitaryPorn.voc": [
+        "MilitaryPorn",
+        "Military Porn",
+        "military "
+    ],
+    "SkyPorn.voc": [
+        "SkyPorn",
+        "Sky Porn",
+        "sky "
+    ],
+    "BonsaiPorn.voc": [
+        "BonsaiPorn",
+        "Bonsai Porn",
+        "bonsai "
+    ],
+    "VillagePorn.voc": [
+        "VillagePorn",
+        "Village Porn",
+        "village "
+    ],
+    "NZPhotos.voc": [
+        "NZPhotos",
+        "NZ Photos",
+        "nz photos"
+    ],
+    "JoshuaTree.voc": [
+        "JoshuaTree",
+        "Joshua Tree",
+        "joshua tree"
+    ],
+    "set.voc": [
+        "set",
+        "change",
+        "make",
+        "use"
+    ],
+    "WinterPorn.voc": [
+        "WinterPorn",
+        "Winter Porn",
+        "winter "
+    ],
+    "roadporn.voc": [
+        "roadporn",
+        "Road Porn",
+        "road "
+    ],
+    "SpaceFlightPorn.voc": [
+        "SpaceFlightPorn",
+        "Space Flight Porn",
+        "space flight "
+    ],
+    "SummerPorn.voc": [
+        "SummerPorn",
+        "Summer Porn",
+        "summer "
+    ],
+    "AnimalPorn.voc": [
+        "AnimalPorn",
+        "Animal Porn",
+        "animal "
+    ],
+    "HellscapePorn.voc": [
+        "HellscapePorn",
+        "Hellscape Porn",
+        "hellscape "
+    ],
+    "DesertPorn.voc": [
+        "DesertPorn",
+        "Desert Porn",
+        "desert "
+    ],
+    "PowerWashingPorn.voc": [
+        "PowerWashingPorn",
+        "Power Washing Porn",
+        "power washing "
+    ],
+    "CabinPorn.voc": [
+        "CabinPorn",
+        "Cabin Porn",
+        "cabin "
+    ],
+    "MotorcyclePorn.voc": [
+        "MotorcyclePorn",
+        "Motorcycle Porn",
+        "motorcycle "
+    ],
+    "RoomPorn.voc": [
+        "RoomPorn",
+        "Room Porn",
+        "room "
+    ],
+    "previous.voc": [
+        "previous",
+        "before",
+        "go back"
+    ],
+    "AdPorn.voc": [
+        "AdPorn",
+        "Ad Porn",
+        "ad "
+    ],
+    "EarthlingPorn.voc": [
+        "EarthlingPorn",
+        "Earthling Porn",
+        "earthling "
+    ],
+    "AgriculturePorn.voc": [
+        "AgriculturePorn",
+        "Agriculture Porn",
+        "agriculture "
+    ],
+    "ExposurePorn.voc": [
+        "ExposurePorn",
+        "Exposure Porn",
+        "exposure "
+    ],
+    "CityPorn.voc": [
+        "CityPorn",
+        "City Porn",
+        "city "
+    ],
+    "NewsPorn.voc": [
+        "NewsPorn",
+        "News Porn",
+        "news "
+    ],
+    "NationalGeographic.voc": [
+        "NationalGeographic",
+        "National Geographic",
+        "national geographic"
+    ],
+    "AmateurEarthPorn.voc": [
+        "AmateurEarthPorn",
+        "Amateur Earth Porn",
+        "amateur earth "
+    ],
+    "drydockporn.voc": [
+        "drydockporn",
+        "Drydock Porn",
+        "drydock "
+    ],
+    "ChurchPorn.voc": [
+        "ChurchPorn",
+        "Church Porn",
+        "church "
+    ],
+    "ArchitecturePorn.voc": [
+        "ArchitecturePorn",
+        "Architecture Porn",
+        "architecture "
+    ],
+    "Nature.voc": [
+        "Nature",
+        "Nature",
+        "nature"
+    ],
+    "MegalithPorn.voc": [
+        "MegalithPorn",
+        "Megalith Porn",
+        "megalith "
+    ],
+    "InstrumentPorn.voc": [
+        "InstrumentPorn",
+        "Instrument Porn",
+        "instrument "
+    ],
+    "GeologyPorn.voc": [
+        "GeologyPorn",
+        "Geology Porn",
+        "geology "
+    ],
+    "HistoryPorn.voc": [
+        "HistoryPorn",
+        "History Porn",
+        "history "
+    ],
+    "SteamPorn.voc": [
+        "SteamPorn",
+        "Steam Porn",
+        "steam "
+    ],
+    "AutumnPorn.voc": [
+        "AutumnPorn",
+        "Autumn Porn",
+        "autumn "
+    ],
+    "AdrenalinePorn.voc": [
+        "AdrenalinePorn",
+        "Adrenaline Porn",
+        "adrenaline "
+    ],
+    "PolicePorn.voc": [
+        "PolicePorn",
+        "Police Porn",
+        "police "
+    ],
+    "RandomKeyword.voc": [
+        "random"
+    ],
+    "FirePorn.voc": [
+        "FirePorn",
+        "Fire Porn",
+        "fire "
+    ],
+    "BookPorn.voc": [
+        "BookPorn",
+        "Book Porn",
+        "book "
+    ],
+    "DestructionPorn.voc": [
+        "DestructionPorn",
+        "Destruction Porn",
+        "destruction "
+    ],
+    "MicroPorn.voc": [
+        "MicroPorn",
+        "Micro Porn",
+        "micro "
+    ],
+    "TelevisionPosterPorn.voc": [
+        "TelevisionPosterPorn",
+        "Television Poster Porn",
+        "television poster "
+    ],
+    "BotanicalPorn.voc": [
+        "BotanicalPorn",
+        "Botanical Porn",
+        "botanical "
+    ],
+    "GamerPorn.voc": [
+        "GamerPorn",
+        "Gamer Porn",
+        "gamer "
+    ],
+    "AerialPorn.voc": [
+        "AerialPorn",
+        "Aerial Porn",
+        "aerial "
+    ],
+    "sculptureporn.voc": [
+        "sculptureporn",
+        "Sculpture Porn",
+        "sculpture "
+    ],
+    "UniformPorn.voc": [
+        "UniformPorn",
+        "Uniform Porn",
+        "uniform "
+    ],
+    "AVPorn.voc": [
+        "AVPorn",
+        "AV Porn",
+        "av "
+    ],
+    "BoatPorn.voc": [
+        "BoatPorn",
+        "Boat Porn",
+        "boat "
+    ],
+    "SeaPorn.voc": [
+        "SeaPorn",
+        "Sea Porn",
+        "sea "
+    ],
+    "RetailPorn.voc": [
+        "RetailPorn",
+        "Retail Porn",
+        "retail "
+    ],
+    "RidesPorn.voc": [
+        "RidesPorn",
+        "Rides Porn",
+        "rides "
+    ],
+    "BeachPorn.voc": [
+        "BeachPorn",
+        "Beach Porn",
+        "beach "
+    ],
+    "wallpapers.voc": [
+        "wallpapers",
+        "wallpaper",
+        "wall paper",
+        "wall papers"
+    ],
+    "TeaPorn.voc": [
+        "TeaPorn",
+        "Tea Porn",
+        "tea "
+    ],
+    "ClimbingPorn.voc": [
+        "ClimbingPorn",
+        "Climbing Porn",
+        "climbing "
+    ],
+    "NatureGifs.voc": [
+        "NatureGifs",
+        "Nature Gifs",
+        "nature gifs"
+    ],
+    "remoteplaces.voc": [
+        "remoteplaces",
+        "Remote Places",
+        "remote places"
+    ],
+    "ImaginaryLandscapes.voc": [
+        "ImaginaryLandscapes",
+        "Imaginary Landscapes",
+        "imaginary landscapes"
+    ],
+    "OrganizationPorn.voc": [
+        "OrganizationPorn",
+        "Organization Porn",
+        "organization "
+    ],
+    "MushroomPorn.voc": [
+        "MushroomPorn",
+        "Mushroom Porn",
+        "mushroom "
+    ],
+    "InfraredPorn.voc": [
+        "InfraredPorn",
+        "Infrared Porn",
+        "infrared "
+    ],
+    "F1Porn.voc": [
+        "F1Porn",
+        "Formula1 Porn",
+        "formula1 "
+    ],
+    "HousePorn.voc": [
+        "HousePorn",
+        "House Porn",
+        "house "
+    ],
+    "ViewPorn.voc": [
+        "ViewPorn",
+        "View Porn",
+        "view "
+    ],
+    "MTGPorn.voc": [
+        "MTGPorn",
+        "MTG Porn",
+        "mtg "
+    ],
+    "EyeCandy.voc": [
+        "EyeCandy",
+        "Eye Candy",
+        "eye candy"
+    ],
+    "Schweiz.voc": [
+        "Schweiz",
+        "Schweiz",
+        "schweiz"
+    ],
+    "KnifePorn.voc": [
+        "KnifePorn",
+        "Knife Porn",
+        "knife "
+    ],
+    "FossilPorn.voc": [
+        "FossilPorn",
+        "Fossil Porn",
+        "fossil "
+    ],
+    "CemeteryPorn.voc": [
+        "CemeteryPorn",
+        "Cemetery Porn",
+        "cemetery "
+    ],
+    "IncredibleIndia.voc": [
+        "IncredibleIndia",
+        "Incredible India",
+        "incredible india"
+    ],
+    "MoviePosterPorn.voc": [
+        "MoviePosterPorn",
+        "Movie Poster Porn",
+        "movie poster "
+    ],
+    "ITookAPicture.voc": [
+        "ITookAPicture",
+        "I Took A Picture",
+        "i took a picture"
+    ],
+    "BackgroundArt.voc": [
+        "BackgroundArt",
+        "Background Art",
+        "background art"
+    ],
+    "MacroPorn.voc": [
+        "MacroPorn",
+        "Macro Porn",
+        "macro "
+    ],
+    "LavaPorn.voc": [
+        "LavaPorn",
+        "Lava Porn",
+        "lava "
+    ],
+    "EarthPornVids.voc": [
+        "EarthPornVids",
+        "Earth Porn Vids",
+        "earth  vids"
+    ],
+    "EarthPorn.voc": [
+        "EarthPorn",
+        "Earth Porn",
+        "earth "
+    ],
+    "ToolPorn.voc": [
+        "ToolPorn",
+        "Tool Porn",
+        "tool "
+    ],
+    "InfrastructurePorn.voc": [
+        "InfrastructurePorn",
+        "Infrastructure Porn",
+        "infrastructure "
+    ],
+    "StreetArtPorn.voc": [
+        "StreetArtPorn",
+        "Street Art Porn",
+        "street art "
+    ],
+    "DesignPorn.voc": [
+        "DesignPorn",
+        "Design Porn",
+        "design "
+    ],
+    "WaterPorn.voc": [
+        "WaterPorn",
+        "Water Porn",
+        "water "
+    ],
+    "WeatherPorn.voc": [
+        "WeatherPorn",
+        "Weather Porn",
+        "weather "
+    ],
+    "ApocalypsePorn.voc": [
+        "ApocalypsePorn",
+        "Apocalypse Porn",
+        "apocalypse "
+    ],
+    "FuturePorn.voc": [
+        "FuturePorn",
+        "Future Porn",
+        "future "
+    ],
+    "ImaginaryWildlands.voc": [
+        "ImaginaryWildlands",
+        "Imaginary Wildlands",
+        "imaginary wildlands"
+    ],
+    "MetalPorn.voc": [
+        "MetalPorn",
+        "Metal Porn",
+        "metal "
+    ],
+    "AlbumArtPorn.voc": [
+        "AlbumArtPorn",
+        "Album Art Porn",
+        "album art "
+    ],
+    "GunPorn.voc": [
+        "GunPorn",
+        "Gun Porn",
+        "gun "
+    ],
+    "FashionPorn.voc": [
+        "FashionPorn",
+        "Fashion Porn",
+        "fashion "
+    ],
+    "next.voc": [
+        "next",
+        "after"
+    ],
+    "CulinaryPorn.voc": [
+        "CulinaryPorn",
+        "Culinary Porn",
+        "culinary "
+    ],
+    "TechnologyPorn.voc": [
+        "TechnologyPorn",
+        "Technology Porn",
+        "technology "
+    ],
+    "SpecArt.voc": [
+        "SpecArt",
+        "Spec Art",
+        "spec art"
+    ],
+    "ArtefactPorn.voc": [
+        "ArtefactPorn",
+        "Artefact Porn",
+        "artefact "
+    ],
+    "Conservation.voc": [
+        "Conservation",
+        "Conservation",
+        "conservation"
+    ],
+    "FractalPorn.voc": [
+        "FractalPorn",
+        "Fractal Porn",
+        "fractal "
+    ],
+    "NaturePics.voc": [
+        "NaturePics",
+        "Nature Pics",
+        "nature pics"
+    ],
+    "NotSafeForNature.voc": [
+        "NotSafeForNature",
+        "Not Safe For Nature",
+        "not safe for nature"
+    ],
+    "QuotesPorn.voc": [
+        "QuotesPorn",
+        "Quotes Porn",
+        "quotes "
+    ]
+}
