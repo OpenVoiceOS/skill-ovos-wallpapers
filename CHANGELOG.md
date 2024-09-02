@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/HEAD)
+## [V0.0.0](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/V0.0.0) (2024-09-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/V0.0.0a4...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/V0.0.0a4...V0.0.0)
 
 **Merged pull requests:**
 
