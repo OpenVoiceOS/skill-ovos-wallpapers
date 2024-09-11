@@ -1,24 +1,12 @@
 # Changelog
 
-## [V0.0.0](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/V0.0.0) (2024-09-02)
+## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/V0.0.0a4...V0.0.0)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/V0.1.0...HEAD)
 
 **Merged pull requests:**
 
-- automations/translations [\#1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/1) ([JarbasAl](https://github.com/JarbasAl))
-
-## [V0.0.0a4](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/V0.0.0a4) (2023-12-30)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/V0.0.0a3...V0.0.0a4)
-
-## [V0.0.0a3](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/V0.0.0a3) (2023-12-30)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/V0.0.0a2...V0.0.0a3)
-
-## [V0.0.0a2](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/V0.0.0a2) (2023-12-30)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/2a48d2ea2e12d2fca163b23c50ca79d19376303b...V0.0.0a2)
+- feat:semver [\#2](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/2) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
