@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.3a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/0.3.3a1) (2024-10-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/0.3.2a1...0.3.3a1)
+
+**Merged pull requests:**
+
+- fix:update\_requirements [\#7](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/7) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.2a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/0.3.2a1) (2024-10-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/0.3.1...0.3.2a1)
