@@ -1,12 +1,20 @@
 # Changelog
 
-## [0.3.4a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/0.3.4a1) (2024-10-31)
+## [0.3.5a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/0.3.5a1) (2024-11-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/0.3.3...0.3.4a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/0.3.5a1...0.3.5a1)
 
 **Merged pull requests:**
 
-- fix:allow workshop 3.0.0 [\#9](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/9) ([JarbasAl](https://github.com/JarbasAl))
+- de-de/translate [\#12](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/12) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.3.5a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/0.3.5a1) (2024-11-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/0.3.4...0.3.5a1)
+
+**Merged pull requests:**
+
+- da-dk/translate [\#11](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/11) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
