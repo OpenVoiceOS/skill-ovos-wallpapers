@@ -1,0 +1,16 @@
+{
+  "wallpaper.changed.dialog": [
+    "nyd dit nye tapet"
+  ],
+  "no.more.pictures.dialog": [
+    "Jeg har ikke flere billeder",
+    "Jeg mangler billeder at vise dig"
+  ],
+  "searching.dialog": [
+    "Søger efter billeder om {query}",
+    "Søger efter billeder med {query}"
+  ],
+  "wallpaper.fail.dialog": [
+    "Jeg ved ikke, hvordan man ændrer tapet i denne platform"
+  ]
+}
