@@ -1,7 +1,6 @@
 import random
 
 from ovos_bus_client.message import Message
-from ovos_utils import camel_case_split
 from ovos_utils.parse import match_one
 from ovos_workshop.decorators import intent_handler, resting_screen_handler
 from ovos_workshop.intents import IntentBuilder
