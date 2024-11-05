@@ -1,0 +1,631 @@
+{
+  "ArtPorn.voc": [
+    "ArtPorn",
+    "Kunstporno",
+    "kunst "
+  ],
+  "FWEPP.voc": [
+    "FWEPP",
+    "FWEPP",
+    "fwepp"
+  ],
+  "MachinePorn.voc": [
+    "MachinePorn",
+    "Maskinporno",
+    "maskine "
+  ],
+  "StarshipPorn.voc": [
+    "StjerneskibPorn",
+    "Stjerneskib porno",
+    "rumskib "
+  ],
+  "DessertPorn.voc": [
+    "DessertPorn",
+    "Dessert porno",
+    "dessert "
+  ],
+  "AbandonedPorn.voc": [
+    "Forladt porno",
+    "Forladt porno",
+    "forladt "
+  ],
+  "HumanPorn.voc": [
+    "HumanPorn",
+    "Menneskelig porno",
+    "human "
+  ],
+  "SpacePorn.voc": [
+    "SpacePorn",
+    "Rumporno",
+    "plads "
+  ],
+  "ThingsCutInHalfPorn.voc": [
+    "ThingsCutInHalfPorn",
+    "Ting skåret i halve porno",
+    "ting skæres i halve "
+  ],
+  "LakePorn.voc": [
+    "LakePorn",
+    "Sø porno",
+    "sø "
+  ],
+  "RuralPorn.voc": [
+    "RuralPorn",
+    "Porno på landet",
+    "landdistrikterne "
+  ],
+  "InterstellarArt.voc": [
+    "InterstellarArt",
+    "Interstellar kunst",
+    "interstellar kunst"
+  ],
+  "BridgePorn.voc": [
+    "BridgePorn",
+    "Bridge porno",
+    "bro "
+  ],
+  "FoodPorn.voc": [
+    "Madporno",
+    "Mad porno",
+    "mad "
+  ],
+  "AmateurPhotography.voc": [
+    "Amatørfotografi",
+    "Amatør fotografering",
+    "amatørfotografering"
+  ],
+  "SportsPorn.voc": [
+    "SportsPorn",
+    "Sports porno",
+    "sport "
+  ],
+  "SpringPorn.voc": [
+    "SpringPorn",
+    "Forårs porno",
+    "forår "
+  ],
+  "ComicBookPorn.voc": [
+    "ComicBookPorn",
+    "Tegneserie porno",
+    "tegneserie "
+  ],
+  "CarPorn.voc": [
+    "CarPorn",
+    "Bil porno",
+    "bil "
+  ],
+  "GeekPorn.voc": [
+    "GeekPorn",
+    "Nørd porno",
+    "nørd "
+  ],
+  "ArtistOfTheDay.voc": [
+    "Dagens Kunstner",
+    "Dagens kunstner",
+    "dagens kunstner"
+  ],
+  "MilitaryPorn.voc": [
+    "Militær porno",
+    "Militær porno",
+    "militær "
+  ],
+  "SkyPorn.voc": [
+    "SkyPorn",
+    "Himmel porno",
+    "himmel "
+  ],
+  "BonsaiPorn.voc": [
+    "BonsaiPorn",
+    "Bonsai porno",
+    "bonsai "
+  ],
+  "VillagePorn.voc": [
+    "VillagePorn",
+    "Landsby porno",
+    "landsby "
+  ],
+  "NZPhotos.voc": [
+    "NZPhotos",
+    "NZ billeder",
+    "nz billeder"
+  ],
+  "JoshuaTree.voc": [
+    "JoshuaTree",
+    "Joshua træ",
+    "joshua træ"
+  ],
+  "set.voc": [
+    "sæt",
+    "forandring",
+    "lave",
+    "bruge"
+  ],
+  "WinterPorn.voc": [
+    "Vinterporno",
+    "Vinter porno",
+    "vinter "
+  ],
+  "roadporn.voc": [
+    "vejporno",
+    "Vejporno",
+    "vej "
+  ],
+  "SpaceFlightPorn.voc": [
+    "SpaceFlightPorn",
+    "Rumflyvning porno",
+    "rumflyvning "
+  ],
+  "SummerPorn.voc": [
+    "Sommerporno",
+    "Sommer porno",
+    "sommer "
+  ],
+  "AnimalPorn.voc": [
+    "AnimalPorn",
+    "Dyreporno",
+    "dyr "
+  ],
+  "HellscapePorn.voc": [
+    "HellscapePorn",
+    "Hellscape porno",
+    "helvedeslandskab "
+  ],
+  "DesertPorn.voc": [
+    "DesertPorn",
+    "Ørken porno",
+    "ørken "
+  ],
+  "PowerWashingPorn.voc": [
+    "PowerWashingPorn",
+    "Power Washing Porno",
+    "kraftvask "
+  ],
+  "CabinPorn.voc": [
+    "CabinPorn",
+    "Hytte porno",
+    "kabine "
+  ],
+  "MotorcyclePorn.voc": [
+    "MotorcykelPorno",
+    "Motorcykel porno",
+    "motorcykel "
+  ],
+  "RoomPorn.voc": [
+    "RoomPorn",
+    "Værelse porno",
+    "værelse "
+  ],
+  "previous.voc": [
+    "tidligere",
+    "før",
+    "gå tilbage"
+  ],
+  "AdPorn.voc": [
+    "AdPorn",
+    "Annonce porno",
+    "annonce "
+  ],
+  "EarthlingPorn.voc": [
+    "EarthlingPorn",
+    "Jordisk porno",
+    "jordbo "
+  ],
+  "AgriculturePorn.voc": [
+    "LandbrugPorno",
+    "Landbrug porno",
+    "landbrug "
+  ],
+  "ExposurePorn.voc": [
+    "EksponeringPorn",
+    "Eksponering porno",
+    "eksponering "
+  ],
+  "CityPorn.voc": [
+    "CityPorn",
+    "By porno",
+    "by "
+  ],
+  "NewsPorn.voc": [
+    "NewsPorn",
+    "Nyheder Porn",
+    "nyheder "
+  ],
+  "NationalGeographic.voc": [
+    "NationalGeographic",
+    "National Geographic",
+    "national geografisk"
+  ],
+  "AmateurEarthPorn.voc": [
+    "AmatørEarthPorn",
+    "Amatør jordporno",
+    "amatørjord "
+  ],
+  "drydockporn.voc": [
+    "tørdokporno",
+    "Tørdok porno",
+    "tørdok "
+  ],
+  "ChurchPorn.voc": [
+    "Kirkeporno",
+    "Kirke porno",
+    "kirke "
+  ],
+  "ArchitecturePorn.voc": [
+    "ArkitekturPorno",
+    "Arkitektur porno",
+    "arkitektur "
+  ],
+  "Nature.voc": [
+    "Natur",
+    "Natur",
+    "natur"
+  ],
+  "MegalithPorn.voc": [
+    "MegalithPorn",
+    "Megalit porno",
+    "megalit "
+  ],
+  "InstrumentPorn.voc": [
+    "InstrumentPorn",
+    "Instrument porno",
+    "instrument "
+  ],
+  "GeologyPorn.voc": [
+    "GeologiPorno",
+    "Geologi porno",
+    "geologi "
+  ],
+  "HistoryPorn.voc": [
+    "HistoriePorno",
+    "Historie porno",
+    "historie "
+  ],
+  "SteamPorn.voc": [
+    "SteamPorn",
+    "Steam porno",
+    "damp "
+  ],
+  "AutumnPorn.voc": [
+    "Efterårsporno",
+    "Efterår porno",
+    "efterår "
+  ],
+  "AdrenalinePorn.voc": [
+    "AdrenalinPorno",
+    "Adrenalin porno",
+    "adrenalin "
+  ],
+  "PolicePorn.voc": [
+    "PolitiPorn",
+    "Politi porno",
+    "politi "
+  ],
+  "RandomKeyword.voc": [
+    "tilfældig"
+  ],
+  "FirePorn.voc": [
+    "FirePorn",
+    "Brandporno",
+    "brand "
+  ],
+  "BookPorn.voc": [
+    "BogPorno",
+    "Bog porno",
+    "bog "
+  ],
+  "DestructionPorn.voc": [
+    "DestruktionPorn",
+    "Destruktion porno",
+    "ødelæggelse "
+  ],
+  "MicroPorn.voc": [
+    "MicroPorn",
+    "Mikro porno",
+    "mikro "
+  ],
+  "TelevisionPosterPorn.voc": [
+    "FjernsynsplakatPorn",
+    "Tv-plakat porno",
+    "tv plakat "
+  ],
+  "BotanicalPorn.voc": [
+    "Botanisk porno",
+    "Botanisk porno",
+    "botanisk "
+  ],
+  "GamerPorn.voc": [
+    "GamerPorn",
+    "Gamer porno",
+    "gamer "
+  ],
+  "AerialPorn.voc": [
+    "AerialPorn",
+    "Luftporno",
+    "antenne "
+  ],
+  "sculptureporn.voc": [
+    "skulpturporno",
+    "Skulptur porno",
+    "skulptur "
+  ],
+  "UniformPorn.voc": [
+    "UniformPorn",
+    "Uniform porno",
+    "uniform "
+  ],
+  "AVPorn.voc": [
+    "AVPorn",
+    "AV porno",
+    "av "
+  ],
+  "BoatPorn.voc": [
+    "BoatPorn",
+    "Bådporno",
+    "båd "
+  ],
+  "SeaPorn.voc": [
+    "SeaPorn",
+    "Havporno",
+    "hav "
+  ],
+  "RetailPorn.voc": [
+    "DetailPorn",
+    "Detailporno",
+    "detailhandel "
+  ],
+  "RidesPorn.voc": [
+    "RidesPorn",
+    "Kører porno",
+    "forlystelser "
+  ],
+  "BeachPorn.voc": [
+    "BeachPorn",
+    "Strand porno",
+    "strand "
+  ],
+  "wallpapers.voc": [
+    "tapeter",
+    "tapet",
+    "tapet",
+    "tapeter"
+  ],
+  "TeaPorn.voc": [
+    "TePorn",
+    "Te porno",
+    "te "
+  ],
+  "ClimbingPorn.voc": [
+    "KlatringPorno",
+    "Klatring porno",
+    "klatring "
+  ],
+  "NatureGifs.voc": [
+    "NatureGifs",
+    "Natur Gifs",
+    "natur gifs"
+  ],
+  "remoteplaces.voc": [
+    "fjerntliggende steder",
+    "Fjerntliggende steder",
+    "fjerntliggende steder"
+  ],
+  "ImaginaryLandscapes.voc": [
+    "Imaginære Landskaber",
+    "imaginære landskaber",
+    "imaginære landskaber"
+  ],
+  "OrganizationPorn.voc": [
+    "OrganisationPorno",
+    "Organisation porno",
+    "organisation "
+  ],
+  "MushroomPorn.voc": [
+    "SvampePorno",
+    "Porno med svampe",
+    "svamp "
+  ],
+  "InfraredPorn.voc": [
+    "Infrarød porno",
+    "Infrarød porno",
+    "infrarød "
+  ],
+  "F1Porn.voc": [
+    "F1 Porno",
+    "Formel 1 porno",
+    "formel 1 "
+  ],
+  "HousePorn.voc": [
+    "HousePorn",
+    "Hus porno",
+    "hus "
+  ],
+  "ViewPorn.voc": [
+    "ViewPorn",
+    "Se porno",
+    "udsigt "
+  ],
+  "MTGPorn.voc": [
+    "MTGPorn",
+    "MTG porno",
+    "mtg "
+  ],
+  "EyeCandy.voc": [
+    "EyeCandy",
+    "Eye Candy",
+    "øjen slik"
+  ],
+  "Schweiz.voc": [
+    "Schweiz",
+    "Schweiz",
+    "schweiz"
+  ],
+  "KnifePorn.voc": [
+    "KnivPorn",
+    "Kniv porno",
+    "kniv "
+  ],
+  "FossilPorn.voc": [
+    "FossilPorn",
+    "Fossil porno",
+    "fossil "
+  ],
+  "CemeteryPorn.voc": [
+    "KirkegårdPorno",
+    "Kirkegård porno",
+    "kirkegård "
+  ],
+  "IncredibleIndia.voc": [
+    "Utroligt Indien",
+    "Utroligt Indien",
+    "utrolige Indien"
+  ],
+  "MoviePosterPorn.voc": [
+    "MoviePosterPorn",
+    "Filmplakat Porno",
+    "filmplakat "
+  ],
+  "ITookAPicture.voc": [
+    "ITookAPicture",
+    "Jeg tog et billede",
+    "jeg tog et billede"
+  ],
+  "BackgroundArt.voc": [
+    "Baggrundskunst",
+    "Baggrundskunst",
+    "baggrundskunst"
+  ],
+  "MacroPorn.voc": [
+    "MakroPorn",
+    "Makro porno",
+    "makro "
+  ],
+  "LavaPorn.voc": [
+    "LavaPorn",
+    "Lava porno",
+    "lava "
+  ],
+  "EarthPornVids.voc": [
+    "EarthPornVis",
+    "Jordpornovideoer",
+    "jorden vids"
+  ],
+  "EarthPorn.voc": [
+    "EarthPorn",
+    "Jord porno",
+    "jord "
+  ],
+  "ToolPorn.voc": [
+    "ToolPorn",
+    "Værktøj porno",
+    "værktøj "
+  ],
+  "InfrastructurePorn.voc": [
+    "InfrastrukturPorn",
+    "Infrastruktur porno",
+    "infrastruktur "
+  ],
+  "StreetArtPorn.voc": [
+    "StreetArtPorn",
+    "Street Art porno",
+    "street art "
+  ],
+  "DesignPorn.voc": [
+    "DesignPorno",
+    "Design porno",
+    "design "
+  ],
+  "WaterPorn.voc": [
+    "Vandporno",
+    "Vand porno",
+    "vand "
+  ],
+  "WeatherPorn.voc": [
+    "VejrPorn",
+    "Vejr porno",
+    "vejr "
+  ],
+  "ApocalypsePorn.voc": [
+    "ApokalypsePorno",
+    "Apokalypse porno",
+    "apokalypse "
+  ],
+  "FuturePorn.voc": [
+    "FuturePorn",
+    "Fremtidens porno",
+    "fremtid "
+  ],
+  "ImaginaryWildlands.voc": [
+    "ImaginaryWildlands",
+    "Imaginary Wildlands",
+    "imaginære vilde områder"
+  ],
+  "MetalPorn.voc": [
+    "MetalPorn",
+    "Metal porno",
+    "metal "
+  ],
+  "AlbumArtPorn.voc": [
+    "AlbumArtPorn",
+    "Album Art Porno",
+    "albumkunst "
+  ],
+  "GunPorn.voc": [
+    "GunPorn",
+    "Pistolporno",
+    "kanon "
+  ],
+  "FashionPorn.voc": [
+    "ModePorno",
+    "Mode porno",
+    "mode "
+  ],
+  "next.voc": [
+    "næste",
+    "efter"
+  ],
+  "CulinaryPorn.voc": [
+    "Kulinarisk porno",
+    "Kulinarisk porno",
+    "kulinarisk "
+  ],
+  "TechnologyPorn.voc": [
+    "TeknologiPorno",
+    "Teknologi porno",
+    "teknologi "
+  ],
+  "SpecArt.voc": [
+    "SpecArt",
+    "Spec Art",
+    "spec art"
+  ],
+  "ArtefactPorn.voc": [
+    "ArtefactPorn",
+    "Artefakt porno",
+    "artefakt "
+  ],
+  "Conservation.voc": [
+    "Bevarelse",
+    "Bevarelse",
+    "bevarelse"
+  ],
+  "FractalPorn.voc": [
+    "FractalPorn",
+    "Fraktal porno",
+    "fraktal "
+  ],
+  "NaturePics.voc": [
+    "Naturbilleder",
+    "Natur billeder",
+    "natur billeder"
+  ],
+  "NotSafeForNature.voc": [
+    "NotSafeForNature",
+    "Ikke sikkert for naturen",
+    "ikke sikkert for naturen"
+  ],
+  "QuotesPorn.voc": [
+    "Citater Porno",
+    "Citater Porno",
+    "citater "
+  ]
+}

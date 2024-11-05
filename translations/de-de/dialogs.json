@@ -1,0 +1,16 @@
+{
+  "wallpaper.changed.dialog": [
+    "viel Spaß mit deinem neuen Hintergrundbild"
+  ],
+  "no.more.pictures.dialog": [
+    "Ich habe keine Bilder mehr",
+    "Ich habe keine Bilder mehr, die ich dir zeigen kann"
+  ],
+  "searching.dialog": [
+    "Suche nach Bildern zu {query}",
+    "Suche nach Bildern mit {query}"
+  ],
+  "wallpaper.fail.dialog": [
+    "Ich weiß nicht, wie ich das Hintergrundbild auf dieser Plattform ändern kann"
+  ]
+}

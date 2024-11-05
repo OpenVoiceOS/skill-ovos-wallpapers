@@ -1,0 +1,20 @@
+{
+  "picture.about.intent": [
+    "(vis|vis|tilfældig|ny) (billede|foto|billede) (om|for|med) {forespørgsel}",
+    "(vis|vis) mig et (billede|foto|billede) (om|for|med) {query}",
+    "(vis|vis) mig en (tilfældig|ny|anden|anden) (billede|foto|billede) (om|for|med) {query}",
+    "(vis|visning) (tilfældig|ny|andet|andet) (billede|foto|billede) (om|for|med) {forespørgsel}"
+  ],
+  "picture.random.intent": [
+    "(vis|vis|tilfældig|ny) (billede|foto|billede)",
+    "(vis|vis) mig et (billede|foto|billede)",
+    "(vis|vis) mig en (tilfældig|ny|anden|anden) (billede|foto|billede)",
+    "(vis|visning) (tilfældig|ny|andet|andet) (billede|foto|billede)"
+  ],
+  "wallpaper.about.intent": [
+    "(ændre|tilfældig|ny) (tapet|tapet) (om|for|med|til) {query}"
+  ],
+  "wallpaper.random.intent": [
+    "(ændre|tilfældig|ny) (tapet|tapet)"
+  ]
+}
