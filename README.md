@@ -1,8 +1,6 @@
 # <img src='./icon.png' width='50' height='50' style='vertical-align:bottom'/> Wallpaper Changer
 
-![](./logo.png)
-
-Pictures from selected subreddits
+Wallpapers from https://wallhaven.cc
 
 ![](./gui.png)
 ![](./gui2.png)
