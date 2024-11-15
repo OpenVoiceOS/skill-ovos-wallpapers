@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ovos-wallpapers.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-wallpapers",
+  "extra_plugins": {
+    "core": [],
+    "PHAL": ["ovos-PHAL-plugin-wallpaper-manager"],
+    "listener": [],
+    "audio": [],
+    "media": [],
+    "gui": []
+  },
+  "name": "Wallpaper Changer",
+  "description": "Pictures from selected subreddits.",
+  "examples": [
+    "new wallpaper",
+    "change wallpaper to nature",
+    "show me a picture",
+    "show me a picture with dogs",
+    "make that my wallpaper"
+  ],
+  "tags": ["wallpapers", "images", "pictures"]
+}
