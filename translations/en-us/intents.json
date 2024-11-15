@@ -15,6 +15,6 @@
         "(change|random|new) (wallpaper|wall paper) (about|for|with|to) {query}"
     ],
     "wallpaper.random.intent": [
-        "(change|random|new) (wallpaper|wall paper)"
+        "(change|random|new) (current|homescreen|the|) (wallpaper|wall paper)"
     ]
 }
