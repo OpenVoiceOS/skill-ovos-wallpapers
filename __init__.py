@@ -13,7 +13,7 @@ def get_wallpapers(query: Optional[str] = None):
     if query:
         params["q"] = query
     data = requests.get(url, params=params).json()["data"]
-    return [w["url"] for w in data]
+    return [w["path"] for w in data]
 
 
 class WallpapersSkill(OVOSSkill):
