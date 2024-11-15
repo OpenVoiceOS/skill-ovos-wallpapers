@@ -33,14 +33,8 @@ class WallpapersSkill(OVOSSkill):
     def fetch_wallpapers(self, query=None) -> str:
         self.picture_list = get_wallpapers(query)
         self.pic_idx = 0
-        self.gui["imgLink"] = self.picture_list[self.pic_idx]
         self.set_context("PhotoUpdated")
         return self.picture_list[self.pic_idx]
-
-    @resting_screen_handler("Wallpapers")
-    def idle(self, message=None):
-        image = self.fetch_wallpapers()
-        self.gui.show_image(image, fill='PreserveAspectFit')
 
     # PHAL wallpaper manager integrations
     def register_with_PHAL(self):
