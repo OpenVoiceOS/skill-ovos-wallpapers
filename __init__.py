@@ -5,7 +5,7 @@ from ovos_utils.parse import match_one
 from ovos_workshop.decorators import intent_handler, resting_screen_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
-from wallpaper_changer.search import latest_reddit, latest_wpcraft, latest_unsplash
+from wallpaper_changer.search import latest_reddit
 
 
 class WallpapersSkill(OVOSSkill):
@@ -16,12 +16,6 @@ class WallpapersSkill(OVOSSkill):
             self.settings["rotate_wallpaper"] = True
         if "change_mins" not in self.settings:
             self.settings["change_mins"] = 30
-
-        # image sources
-        if "unsplash" not in self.settings:
-            self.settings["unsplash"] = False
-        if "wpcraft" not in self.settings:
-            self.settings["wpcraft"] = True
 
         subs = ['/r/EarthPorn', '/r/BotanicalPorn', '/r/WaterPorn',
                 '/r/SeaPorn',
@@ -82,20 +76,7 @@ class WallpapersSkill(OVOSSkill):
                 '/r/wallpapers',
                 "/r/InterstellarArt"]
         self.subs = [s.split("/")[-1].strip() for s in subs]
-        self.wpcats = [
-            '3d', 'abstract', 'animals', 'anime', "art", "black", "cars",
-            'city',
-            'dark', 'fantasy', 'flowers', 'food', 'holidays', 'love',
-            'macro',
-            'minimalism', 'motorcycles', 'music', 'nature', 'other',
-            'smilies',
-            'space', 'sport', 'hi-tech', 'textures', 'vector', 'words',
-            '60_favorites'
-        ]
         for c in self.subs:
-            if c not in self.settings:
-                self.settings[c] = True
-        for c in self.wpcats:
             if c not in self.settings:
                 self.settings[c] = True
 
@@ -127,20 +108,6 @@ class WallpapersSkill(OVOSSkill):
                         self.pic_idx = 0
                         data = wps[0]
                         data["url"] = "https://www.reddit.com/r/{s}/".format(s=c)
-            if self.settings["unsplash"] and \
-                    random.choice([True, False]) and not data:
-                self.picture_list = latest_unsplash(query, n=3)
-                data = self.picture_list[0]
-                data["url"] = "https://source.unsplash.com/1920x1080/?" + query
-                self.pic_idx = 0
-            elif self.settings["wpcraft"] and \
-                    random.choice([True, False]) and not data:
-                wps = latest_wpcraft()
-                random.shuffle(wps)
-                data = wps[0]
-                self.picture_list = wps
-                self.pic_idx = 0
-                data["url"] = "https://wallpaperscraft.com"
         else:
             # fuzzy match voc_files
             best_sub = query
@@ -163,19 +130,6 @@ class WallpapersSkill(OVOSSkill):
                     self.pic_idx = 0
                     data = wps[0]
                     data["url"] = "https://www.reddit.com/r/{s}/".format(s=query)
-            elif query in self.wpcats:
-                wps = latest_wpcraft(query)
-                random.shuffle(wps)
-                data = wps[0]
-                self.picture_list = wps
-                self.pic_idx = 0
-                data["url"] = "https://wallpaperscraft.com/catalog/" + query
-            else:
-                # no matching subreddit, search in unsplash
-                self.picture_list = latest_unsplash(query, n=3)
-                data = self.picture_list[0]
-                data["url"] = "https://source.unsplash.com/1920x1080/?" + query
-                self.pic_idx = 0
 
         if not data:
             # default source of wallpapers
