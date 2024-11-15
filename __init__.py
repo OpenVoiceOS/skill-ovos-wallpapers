@@ -5,25 +5,19 @@ from ovos_utils.parse import match_one
 from ovos_workshop.decorators import intent_handler, resting_screen_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
-from wallpaper_changer import set_wallpaper, get_desktop_environment
-from wallpaper_changer.search import latest_reddit, latest_wpcraft, \
-    latest_unsplash
+from wallpaper_changer.search import latest_reddit, latest_wpcraft, latest_unsplash
 
 
 class WallpapersSkill(OVOSSkill):
 
     def initialize(self):
         # skill settings defaults
-        if "auto_detect" not in self.settings:
-            self.settings["auto_detect"] = True
-        if "desktop_env" not in self.settings:
-            self.settings["desktop_env"] = get_desktop_environment()
         if "rotate_wallpaper" not in self.settings:
             self.settings["rotate_wallpaper"] = True
         if "change_mins" not in self.settings:
             self.settings["change_mins"] = 30
 
-        # imaage sources
+        # image sources
         if "unsplash" not in self.settings:
             self.settings["unsplash"] = False
         if "wpcraft" not in self.settings:
@@ -108,9 +102,6 @@ class WallpapersSkill(OVOSSkill):
         # state trackers
         self.pic_idx = 0
         self.picture_list = []
-
-        # events
-        self.log.info("Detected desktop env " + self.settings["desktop_env"])
 
         # gui slideshow buttons
         self.gui.register_handler(f'wallpaper.next', self.handle_next)
@@ -238,20 +229,10 @@ class WallpapersSkill(OVOSSkill):
                     yield u["imgLink"]
 
     def change_wallpaper(self, image):
-        if self.settings["auto_detect"]:
-            success = set_wallpaper(image)
-        else:
-            # allow user override of wallpaper command
-            success = set_wallpaper(image, self.settings["desktop_env"])
-            if not success:
-                success = set_wallpaper(image)
-
         # update in homescreen skill / PHAL plugin
         self.bus.emit(Message("ovos.wallpaper.manager.set.wallpaper",
-                              {"provider_name": self.skill_id,
-                               "url": image}))
+                              {"provider_name": self.skill_id, "url": image}))
         self.bus.emit(Message("homescreen.wallpaper.set", {"url": image}))
-        return success
 
     def display(self):
         self.gui.clear()
@@ -268,12 +249,8 @@ class WallpapersSkill(OVOSSkill):
     @intent_handler("wallpaper.random.intent")
     def handle_random_wallpaper(self, message):
         image, title = self.update_picture()
-        success = self.change_wallpaper(image)
-        if success:
-            self.speak_dialog("wallpaper.changed")
-        else:
-            self.speak_dialog("wallpaper fail")
-        self.gui.show_image(image, fill='PreserveAspectFit')
+        self.change_wallpaper(image)
+        self.speak_dialog("wallpaper.changed")
 
     @intent_handler("picture.random.intent")
     def handle_random_picture(self, message=None):
@@ -288,12 +265,8 @@ class WallpapersSkill(OVOSSkill):
         query = message.data["query"]
         self.speak_dialog("searching", {"query": query})
         image, title = self.update_picture(query)
-        success = self.change_wallpaper(image)
-        if success:
-            self.speak_dialog("wallpaper.changed")
-        else:
-            self.speak_dialog("wallpaper fail")
-        self.gui.show_image(image, fill='PreserveAspectFit')
+        self.change_wallpaper(image)
+        self.speak_dialog("wallpaper.changed")
 
     @intent_handler("picture.about.intent")
     def handle_picture_about(self, message=None):
@@ -336,8 +309,5 @@ class WallpapersSkill(OVOSSkill):
                     .require("SlideShow"))
     def handle_set_wallpaper(self, message=None):
         image = self.picture_list[self.pic_idx]["imgLink"]
-        success = self.change_wallpaper(image)
-        if success:
-            self.speak_dialog("wallpaper.changed")
-        else:
-            self.speak_dialog("wallpaper fail")
+        self.change_wallpaper(image)
+        self.speak_dialog("wallpaper.changed")
