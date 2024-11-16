@@ -2,6 +2,8 @@
 
 Wallpapers from https://wallhaven.cc
 
+> wallpapers are saved to `~/.local/share/wallpapers/`
+
 ![](./gui.png)
 ![](./gui2.png)
 ![](./gui3.png)

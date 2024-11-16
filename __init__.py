@@ -31,6 +31,7 @@ def get_wallpapers(query: Optional[str] = None,
         local_wallpaper_storage = os.path.abspath(os.path.join(xdg_data_home(), "wallpapers"))
         os.makedirs(local_wallpaper_storage, exist_ok=True)
         for u in urls:
+            LOG.debug(f"Downloading wallpaper: {u}")
             pic = requests.get(u).content
             p = os.path.join(local_wallpaper_storage, u.split("/")[-1])
             with open(p, "wb") as f:
@@ -88,12 +89,14 @@ class WallpapersSkill(OVOSSkill):
     # intents
     @intent_handler("wallpaper.random.intent")
     def handle_random_wallpaper(self, message):
+        self.speak_dialog("searching_random")
         image = self.fetch_wallpapers()
         self.change_wallpaper(image)
         self.speak_dialog("wallpaper.changed")
 
     @intent_handler("picture.random.intent")
     def handle_random_picture(self, message=None):
+        self.speak_dialog("searching_random")
         image = self.fetch_wallpapers()
         self.gui.show_image(image)
 
@@ -144,3 +147,4 @@ class WallpapersSkill(OVOSSkill):
         image = self.picture_list[self.pic_idx]
         self.change_wallpaper(image)
         self.speak_dialog("wallpaper.changed")
+        self.gui.release()  # let home screen show the wallpaper
