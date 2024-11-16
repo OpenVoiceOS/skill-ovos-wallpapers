@@ -2,7 +2,8 @@ from typing import Optional
 
 import requests
 from ovos_bus_client.message import Message
-from ovos_workshop.decorators import intent_handler, resting_screen_handler
+from ovos_utils.log import LOG
+from ovos_workshop.decorators import intent_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 
@@ -12,8 +13,14 @@ def get_wallpapers(query: Optional[str] = None):
     params = {"sorting": "random"}
     if query:
         params["q"] = query
-    data = requests.get(url, params=params).json()["data"]
-    return [w["path"] for w in data]
+    try:
+        response = requests.get(url, params=params, timeout=10)
+        response.raise_for_status()
+        data = response.json()["data"]
+        return [w["path"] for w in data]
+    except (requests.RequestException, KeyError, ValueError) as e:
+        LOG.error(f"Error fetching wallpapers: {str(e)}")
+    return []
 
 
 class WallpapersSkill(OVOSSkill):
