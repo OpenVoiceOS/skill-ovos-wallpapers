@@ -45,18 +45,12 @@ class WallpapersSkill(OVOSSkill):
         # state trackers
         self.pic_idx = 0
         self.picture_list = []
-
-        # gui slideshow buttons
-        self.gui.register_handler(f'wallpaper.next', self.handle_next)
-        self.gui.register_handler(f'wallpaper.prev', self.handle_prev)
-
         self.register_with_PHAL()
 
-    # idle screen
     def fetch_wallpapers(self, query=None) -> str:
         self.picture_list = get_wallpapers(query)
         self.pic_idx = 0
-        self.set_context("PhotoUpdated")
+        self.set_context("SlideShow")
         return self.picture_list[self.pic_idx]
 
     # PHAL wallpaper manager integrations
