@@ -125,6 +125,7 @@ class WallpapersSkill(OVOSSkill):
             self.pic_idx = total - 1
             self.speak_dialog("no.more.pictures")
         else:
+            self.acknowledge()
             image = self.picture_list[self.pic_idx]
             self.gui.show_image(image)
 
@@ -137,6 +138,7 @@ class WallpapersSkill(OVOSSkill):
             self.pic_idx = 0
             self.speak_dialog("no.more.pictures")
         else:
+            self.acknowledge()
             image = self.picture_list[self.pic_idx]
             self.gui.show_image(image)
 
