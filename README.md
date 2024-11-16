@@ -1,8 +1,8 @@
 # <img src='./icon.png' width='50' height='50' style='vertical-align:bottom'/> Wallpaper Changer
 
-![](./logo.png)
+Wallpapers from https://wallhaven.cc
 
-Pictures from selected subreddits
+> wallpapers are saved to `~/.local/share/wallpapers/`
 
 ![](./gui.png)
 ![](./gui2.png)
