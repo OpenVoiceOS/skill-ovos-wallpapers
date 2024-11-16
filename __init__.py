@@ -1,26 +1,42 @@
+import os
 from typing import Optional
 
 import requests
 from ovos_bus_client.message import Message
 from ovos_utils.log import LOG
+from ovos_utils.xdg_utils import xdg_data_home
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 
 
-def get_wallpapers(query: Optional[str] = None):
+def get_wallpapers(query: Optional[str] = None,
+                   cache=True, max_pics: int = 5):
     url = "https://wallhaven.cc/api/v1/search"
-    params = {"sorting": "random"}
+    params = {"sorting": "random",
+              "categories": "100"}
     if query:
         params["q"] = query
     try:
         response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
         data = response.json()["data"]
-        return [w["path"] for w in data]
     except (requests.RequestException, KeyError, ValueError) as e:
         LOG.error(f"Error fetching wallpapers: {str(e)}")
-    return []
+        return []
+    urls = [w["path"] for w in data][:max_pics]
+    if cache:
+        paths = []
+        # standard path already used by the PHAL plugin
+        local_wallpaper_storage = os.path.abspath(os.path.join(xdg_data_home(), "wallpapers"))
+        for u in urls:
+            pic = requests.get(u).content
+            p = os.path.join(local_wallpaper_storage, u.split("/")[-1])
+            with open(p, "wb") as f:
+                f.write(pic)
+                paths.append(p)
+        return paths
+    return urls
 
 
 class WallpapersSkill(OVOSSkill):
