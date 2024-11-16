@@ -29,6 +29,7 @@ def get_wallpapers(query: Optional[str] = None,
         paths = []
         # standard path already used by the PHAL plugin
         local_wallpaper_storage = os.path.abspath(os.path.join(xdg_data_home(), "wallpapers"))
+        os.makedirs(local_wallpaper_storage, exist_ok=True)
         for u in urls:
             pic = requests.get(u).content
             p = os.path.join(local_wallpaper_storage, u.split("/")[-1])
