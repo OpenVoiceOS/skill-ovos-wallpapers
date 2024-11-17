@@ -5,6 +5,7 @@ import requests
 from ovos_bus_client.message import Message
 from ovos_utils.log import LOG
 from ovos_utils.xdg_utils import xdg_data_home
+
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
@@ -47,26 +48,14 @@ class WallpapersSkill(OVOSSkill):
         # state trackers
         self.pic_idx = 0
         self.picture_list = []
-        self.register_with_PHAL()
-
-    def fetch_wallpapers(self, query=None) -> str:
-        self.picture_list = get_wallpapers(query)
-        self.pic_idx = 0
-        self.set_context("SlideShow")
-        return self.picture_list[self.pic_idx]
-
-    # PHAL wallpaper manager integrations
-    def register_with_PHAL(self):
         self.bus.emit(Message("ovos.wallpaper.manager.register.provider",
                               {"provider_name": self.skill_id,
                                "provider_display_name": self.name}))
-        self.bus.on(f"{self.skill_id}.get.wallpaper.collection", self.handle_wallpaper_scan)
-        self.bus.on(f"{self.skill_id}.get.new.wallpaper", self.handle_wallpaper_get)
-        self.fetch_wallpapers()
-        self.bus.emit(Message("ovos.wallpaper.manager.collect.collection.response",
-                              {"provider_name": self.skill_id,
-                               "wallpaper_collection": self.picture_list}))
+        self.add_event(f"{self.skill_id}.get.wallpaper.collection", self.handle_wallpaper_scan)
+        self.add_event(f"{self.skill_id}.get.new.wallpaper", self.handle_wallpaper_get)
+        self.bus.emit(Message(f"{self.skill_id}.get.wallpaper.collection"))  # download wallpapers on launch
 
+    # PHAL wallpaper manager integrations
     def handle_wallpaper_scan(self, message: Message):
         self.fetch_wallpapers()
         self.bus.emit(message.reply("ovos.wallpaper.manager.collect.collection.response",
@@ -80,6 +69,12 @@ class WallpapersSkill(OVOSSkill):
                                      "url": url}))
 
     # skill internals
+    def fetch_wallpapers(self, query=None) -> str:
+        self.picture_list = get_wallpapers(query)
+        self.pic_idx = 0
+        self.set_context("SlideShow")
+        return self.picture_list[self.pic_idx]
+
     def change_wallpaper(self, image):
         # update in homescreen skill / PHAL plugin
         self.bus.emit(Message("ovos.wallpaper.manager.set.wallpaper",
