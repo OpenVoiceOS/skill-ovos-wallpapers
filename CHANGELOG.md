@@ -1,12 +1,12 @@
 # Changelog
 
-## [1.0.0a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/1.0.0a1) (2024-11-16)
+## [1.0.1a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/1.0.1a1) (2024-11-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/0.3.7...1.0.0a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/1.0.0...1.0.1a1)
 
-**Breaking changes:**
+**Merged pull requests:**
 
-- feat!: move to new wallpaper api [\#17](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/17) ([JarbasAl](https://github.com/JarbasAl))
+- fix: drop unused files [\#20](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/20) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
