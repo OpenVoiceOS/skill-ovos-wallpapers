@@ -1,0 +1,38 @@
+{
+  "skill_id": "skill-ovos-wallpapers.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-wallpapers",
+  "extra_plugins": {
+    "core": [
+
+    ],
+    "PHAL": [
+      "ovos-PHAL-plugin-wallpaper-manager"
+    ],
+    "listener": [
+
+    ],
+    "audio": [
+
+    ],
+    "media": [
+
+    ],
+    "gui": [
+
+    ]
+  },
+  "name": "Canviador del fons de pantalla",
+  "description": "Imatges de subreddits seleccionats",
+  "examples": [
+    "fons de pantalla nou",
+    "canvia el fons de pantalla a natura",
+    "mostra'm un dibuix",
+    "mostra'm una imatge amb gossos",
+    "fes que sigui el fons de pantalla"
+  ],
+  "tags": [
+    "fons-de-pantalla",
+    "imatges",
+    "dibuixos"
+  ]
+}
