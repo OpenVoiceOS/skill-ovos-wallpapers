@@ -1,20 +1,21 @@
 # Changelog
 
-## [1.0.5a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/1.0.5a1) (2024-11-27)
+## [1.0.5a2](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/tree/1.0.5a2) (2024-11-30)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/1.0.5a1...1.0.5a1)
-
-**Merged pull requests:**
-
-- Add Catalan strings [\#28](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/28) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
-## [1.0.5a1](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/tree/1.0.5a1) (2024-11-27)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/compare/1.0.4...1.0.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/compare/1.0.5a1...1.0.5a2)
 
 **Merged pull requests:**
 
-- Add Catalan strings [\#30](https://github.com/OpenVoiceOS/skill-ovos-wallpapers/pull/30) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- de-de/translate [\#31](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/pull/31) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Add Catalan strings [\#28](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/pull/28) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [1.0.5a1](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/tree/1.0.5a1) (2024-11-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/compare/1.0.4...1.0.5a1)
+
+**Merged pull requests:**
+
+- Add Catalan strings [\#30](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/pull/30) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
