@@ -1,0 +1,17 @@
+{
+    "searching_random.dialog": [],
+    "no.more.pictures.dialog": [
+        "Non teño máis imaxes",
+        "Non teño máis imaxes para che mostrar"
+    ],
+    "searching.dialog": [
+        "Procurar imaxes con {query}",
+        "Procurar imaxes sobre {query}"
+    ],
+    "wallpaper.fail.dialog": [
+        "Non sei como se muda o fondo de escritorio nesta plataforma"
+    ],
+    "wallpaper.changed.dialog": [
+        "desfruta do teu novo fondo de escritorio"
+    ]
+}
