@@ -1,13 +1,12 @@
 # Changelog
 
-## [1.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/tree/1.0.7a1) (2024-12-02)
+## [1.0.8a1](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/tree/1.0.8a1) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/compare/1.0.6...1.0.7a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/compare/1.0.7...1.0.8a1)
 
 **Merged pull requests:**
 
-- import galician translations [\#35](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/pull/35) ([JarbasAl](https://github.com/JarbasAl))
-- Add Catalan strings [\#29](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/pull/29) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- import basque translations [\#37](https://github.com/OpenVoiceOS/ovos-skill-wallpapers/pull/37) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
