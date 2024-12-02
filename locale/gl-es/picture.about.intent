@@ -1,0 +1,4 @@
+(mostrar|ensinar) (foto|fotografía|imaxe) (nova|aleatoria) (sobre|para|con) {query}
+(mostrar|ensinar) (outra) (foto|fotografía|imaxe) (aleatoria|nova|distinta) (sobre|para|con) {query}
+(móstrame|ensíname) (unha|outra) (foto|fotografía|imaxe) (aleatoria|nova||distinta) (sobre|para|con) {query}
+(móstrame|ensíname) unha (foto|fotografía|imaxe) (sobre|para|con) {query}
