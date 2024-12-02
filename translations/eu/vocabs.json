@@ -1,0 +1,26 @@
+{
+    "RandomKeyword.voc": [
+        "ausazko"
+    ],
+    "next.voc": [
+        "hurrengo",
+        "ondoren|gero"
+    ],
+    "set.voc": [
+        "aldatu",
+        "egin",
+        "ezarri",
+        "erabili"
+    ],
+    "previous.voc": [
+        "aurretik|baino lehen",
+        "egin atzera",
+        "aurrekoa"
+    ],
+    "wallpapers.voc": [
+        "horma-paper",
+        "horma-paperak",
+        "horma-paper",
+        "horma-paperak"
+    ]
+}
