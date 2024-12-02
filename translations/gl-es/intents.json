@@ -1,5 +1,11 @@
 {
-    "wallpaper.random.intent": [],
+    "wallpaper.random.intent": [
+        "(cambiar|mudar) o fondo de escritorio actual",
+        "mudar o fondo de escritorio da pantalla de benvida",
+        "(cambiar|mudar) o fondo de escritorio",
+        "(cambiar|mudar) fondo de escritorio",
+        "(cambiar|mudar|) fondo de escritorio (aleatorio|novo)"
+    ],
     "picture.random.intent": [
         "(mostrar|ensinar) (outra) (foto|fotografía|imaxe) (aleatoria|nova|distinta)",
         "(móstrame|ensíname) unha (foto|fotografía|imaxe)",
@@ -7,7 +13,7 @@
         "(mostrar|ensinar) (foto|fotografía|imaxe) (aleatoria|nova)"
     ],
     "wallpaper.about.intent": [
-        "(cambiar) (fondo de escritorio) (aleatorio|novo) (sobre|para|con|de) {query}"
+        "(cambiar|mudar) fondo de escritorio (aleatorio|novo) (sobre|para|con|de) {query}"
     ],
     "picture.about.intent": [
         "(mostrar|ensinar) (outra) (foto|fotografía|imaxe) (aleatoria|nova|distinta) (sobre|para|con) {query}",
